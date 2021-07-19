@@ -6,6 +6,6 @@
   text-align: center;
 }
 
-.link {
-  color: white;
+.footer a {
+  color: inherit;
 }
