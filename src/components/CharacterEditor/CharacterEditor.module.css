@@ -3,10 +3,21 @@
   padding-bottom: 64px;
 }
 
+.bgGreenRect {
+  position: fixed;
+  width: 100%;
+  height: 50%;
+  bottom: 0;
+  left: 0;
+  background-color: hsl(195deg, 20%, 86%);
+}
+
 .maxWidthWrapper {
+  position: relative;
 }
 
 .header {
+  width: 65%;
   padding-bottom: 64px;
 }
 
@@ -24,7 +35,14 @@
 }
 
 .characterWrapper {
+  position: fixed;
+  top: 138px;
+  right: 0;
+  width: 30%;
+  min-width: 250px;
+  min-height: 500px;
 }
 
 .controlColumn {
+  width: 50%;
 }
